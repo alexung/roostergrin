@@ -6,6 +6,8 @@ git_source(:github) do |repo_name|
 end
 
 
+gem 'pry', '~> 0.10.4'
+gem 'simple_form', '~> 3.4.0'
 gem 'slim', '~> 3.0.7'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.0.1'

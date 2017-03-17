@@ -1,2 +1,14 @@
 h1
-	= 'Test'
+	= link_to 'Translator', root_path
+
+= simple_form_for :patients, url: '/translate', method: :post do |f|
+	= f.input :patient, label: 'Patient' do
+  	= f.select :patient, Patient.all.map { |p| [p.first_name, p.id, {:name => p.first_name}] }, include_blank: 'Select a Patient', class: 'form-control'
+	= f.input :text_to_translate, as: :text, label: 'Text to Translate'
+	= f.submit 'Translate'
+
+- if params[:translated]
+	h1
+		| Translated Text
+	p
+		= params[:translated]

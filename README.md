@@ -55,3 +55,6 @@ You will be evaluated on all aspects of your solution, but we will focus on your
 If you have any questions feel free to ask Riley (riley.scheid@roostergrin.com) directly. This assignment is open ended and you are welcome to take however much time you need; however, it is recommended that you take no more than two hours to complete it. Take shortcuts, make assumptions, just make note when you do. We are evaluating how you think and the choices you make, not the fit and finish of the final product.
 
 Good luck!
+
+### Todo:
+* disable the submit button unless you've chosen someone and you've filled out the query
